@@ -16,7 +16,7 @@ class AppInfo(object):
 class Q2048MainWindow(PyQt5.QtWidgets.QMainWindow):
 	def __init__(self):
 		super().__init__()
-		self.title  = AppInfo.Name + " " + AppInfo.Version
+		self.title  = AppInfo.Name
 		self.left   = 10
 		self.top    = 10
 		self.width  = 640
